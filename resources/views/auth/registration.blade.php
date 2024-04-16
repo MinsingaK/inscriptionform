@@ -32,7 +32,7 @@
             <input type="text" class="form-control" placeholder="Enter your Email"
             name="email" value="{{old('email')}}">
             <span class="text-danger">
-                @error('email') ☠😿
+                @error('email') 
                 {{$message}}
             @enderror</span>
         </div>
