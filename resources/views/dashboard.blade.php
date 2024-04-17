@@ -4,7 +4,7 @@
 
 
 @section('content')
-    <h4 style="display: flex; justify-content: center">Welcome to your dashboard {{$data->name}} !</h4>
+    <h3 style="display: flex; justify-content: center">Welcome to your dashboard {{$data->name}} !</h3>
     <hr>
     <table class="table">
         <thead>
